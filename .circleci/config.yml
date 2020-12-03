@@ -1,0 +1,103 @@
+version: 2.1
+
+orbs:
+  rn: react-native-community/react-native@4.1.0
+
+commands:
+  authenticate_jfrog:
+    description: 'authenticate with jfrog'
+    steps:
+      - run:
+          name: Authenticate with registry
+          command: |
+            echo "@creditas:registry=https://creditas.jfrog.io/creditas/api/npm/npm/
+            //creditas.jfrog.io/creditas/api/npm/npm/:_authToken=$NPM_TOKEN" > ~/.npmrc
+  checkout-and-attach-workspace:
+    description: 'Checkout current branch and attach to workspace'
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+  yarn_install:
+    description: 'install javascript modules using cache and our registry'
+    steps:
+      - authenticate_jfrog
+      - rn/yarn_install
+  code-coverage:
+    description: 'Runs codecov on application'
+    steps:
+      - checkout-and-attach-workspace
+      - run:
+          name: Generate Code Coverage
+          command: yarn test:coverage
+      - run:
+          name: Upload Code Coverage
+          command: yarn test:upload:coverage
+
+jobs:
+  install:
+    executor:
+      name: rn/linux_js
+      node_version: '10.17'
+    steps:
+      - checkout
+      - yarn_install
+      - persist_to_workspace:
+          paths: .
+          root: .
+
+  lint:
+    executor:
+      name: rn/linux_js
+      node_version: '10.17'
+    steps:
+      - checkout-and-attach-workspace
+      - run:
+          name: Lint application 🔎
+          command: yarn lint --quiet
+
+  tests:
+    executor:
+      name: rn/linux_js
+      node_version: '10.17'
+    steps:
+      - checkout-and-attach-workspace
+      - run:
+          name: Running Tests
+          command: yarn test
+
+  code-cov:
+    executor:
+      name: rn/linux_js
+      node_version: '10.17'
+    steps:
+      - code-coverage
+
+  check-core-dependencies:
+    executor:
+      name: rn/linux_js
+      node_version: '10.17'
+    steps:
+      - checkout-and-attach-workspace
+      - run:
+          name: Checking Core-Dependecies
+          command: yarn check:dependencies
+
+workflows:
+  master:
+    jobs:
+      - install:
+          context:
+            - artifactory-credentials
+      - lint:
+          requires:
+            - install
+      - tests:
+          requires:
+            - install
+      - code-cov:
+          requires:
+            - install
+      - check-core-dependencies:
+          requires:
+            - install

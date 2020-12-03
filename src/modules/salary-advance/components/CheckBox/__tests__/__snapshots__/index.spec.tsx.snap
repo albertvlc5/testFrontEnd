@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox should render component 1`] = `
+<View
+  onTouchEnd={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "borderColor": "#111515",
+        "borderRadius": 5,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "height": 30,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+        "paddingTop": 3,
+        "width": 30,
+      },
+    ]
+  }
+  testID="box-id"
+>
+  <View
+    checked={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 5,
+          "height": "100%",
+          "width": "100%",
+        },
+      ]
+    }
+    testID="check-value-id"
+  />
+</View>
+`;

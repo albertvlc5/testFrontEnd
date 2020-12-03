@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request Confirmation Screen should render component 1`] = `
+Array [
+  <View
+    m="spacing20px"
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "marginRight": 20,
+          "marginTop": 20,
+        },
+      ]
+    }
+  >
+    <View
+      mb="spacing64px"
+      mt="spacing80px"
+      style={
+        Array [
+          Object {
+            "marginBottom": 64,
+            "marginTop": 80,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderColor": "#11bb77",
+              "borderRadius": 40,
+              "borderStyle": "solid",
+              "borderWidth": 2,
+              "height": 54,
+              "justifyContent": "center",
+              "width": 54,
+            },
+          ]
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={24}
+          bbWidth={24}
+          fill="none"
+          focusable={false}
+          height={24}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              undefined,
+              Object {
+                "opacity": 1,
+              },
+              Object {
+                "flex": 0,
+                "height": 24,
+                "width": 24,
+              },
+            ]
+          }
+          vbHeight={15}
+          vbWidth={15}
+          width={24}
+        >
+          <RNSVGGroup
+            fill={null}
+            fillOpacity={1}
+            fillRule={1}
+            font={Object {}}
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            opacity={1}
+            originX={0}
+            originY={0}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            rotation={0}
+            scaleX={1}
+            scaleY={1}
+            skewX={0}
+            skewY={0}
+            stroke={null}
+            strokeDasharray={null}
+            strokeDashoffset={null}
+            strokeLinecap={0}
+            strokeLinejoin={0}
+            strokeMiterlimit={4}
+            strokeOpacity={1}
+            strokeWidth={1}
+            vectorEffect={0}
+            x={0}
+            y={0}
+          >
+            <RNSVGPath
+              d="M6 10.586L16.293.293a1 1 0 0 1 1.414 1.414l-11 11a1 1 0 0
+        1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L6 10.586z"
+              fill={
+                Array [
+                  0,
+                  4279352183,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={null}
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={0}
+              strokeLinejoin={0}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+    <Text
+      color="neutral9"
+      strikeThrough={false}
+      style={
+        Array [
+          Object {
+            "color": "#111515",
+            "fontFamily": "HelveticaNowDisplay-Light",
+            "fontSize": 24,
+            "lineHeight": 32,
+            "textDecorationColor": "#111515",
+            "textDecorationLine": "none",
+            "textDecorationStyle": "solid",
+          },
+          Object {
+            "fontSize": 26,
+          },
+        ]
+      }
+      underlined={false}
+      variant="mockTokenHelveticaHeadingH7Light"
+    >
+      salaryAdvance.requestConfirmation.title
+    </Text>
+    <Text
+      color="neutral9"
+      strikeThrough={false}
+      style={
+        Array [
+          Object {
+            "color": "#111515",
+            "fontFamily": "HelveticaNowDisplay-Regular",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textDecorationColor": "#111515",
+            "textDecorationLine": "none",
+            "textDecorationStyle": "solid",
+          },
+          Object {
+            "letterSpacing": 0.3,
+            "lineHeight": 24,
+            "marginTop": 16,
+            "width": 320,
+          },
+        ]
+      }
+      underlined={false}
+      variant="mockTokenHelveticaDisplayRegular"
+    >
+      salaryAdvance.requestConfirmation.subtitle
+    </Text>
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 40,
+            "height": 90,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="confirmation-btn-id"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#3377bb",
+                "borderRadius": 8,
+                "height": 48,
+                "justifyContent": "center",
+              },
+              Object {
+                "backgroundColor": "#49E295",
+                "borderRadius": 16,
+                "height": 60,
+                "marginTop": 45,
+                "width": 335,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                  "fontFamily": "NunitoSans-SemiBold",
+                  "fontSize": 20,
+                },
+                Object {
+                  "color": "black",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            salaryAdvance.requestConfirmation.btn
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

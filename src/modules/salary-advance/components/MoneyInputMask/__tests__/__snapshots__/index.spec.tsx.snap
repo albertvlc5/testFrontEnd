@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Money Input Mask should render component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text
+    color="neutral5"
+    strikeThrough={false}
+    style={
+      Array [
+        Object {
+          "color": "#aabbbb",
+          "fontFamily": "HelveticaNowDisplay-Light",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "textDecorationColor": "#aabbbb",
+          "textDecorationLine": "none",
+          "textDecorationStyle": "solid",
+        },
+        Object {
+          "fontSize": 32,
+          "marginRight": 15,
+          "paddingTop": 27,
+        },
+      ]
+    }
+    underlined={false}
+    variant="mockTokenHelveticaDisplayLight"
+  >
+    R$
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="numeric"
+    onChangeText={[Function]}
+    options={
+      Object {
+        "maskType": "BRL",
+        "unit": "",
+      }
+    }
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomColor": "transparent",
+          "fontFamily": "HelveticaNowDisplay-Light",
+          "fontSize": 32,
+          "letterSpacing": 0.6,
+          "lineHeight": 40,
+          "width": "100%",
+        },
+      ]
+    }
+    testID="input-mask-test-id"
+    type="money"
+    underlineColorAndroid="transparent"
+    value="4.250,00"
+  />
+</View>
+`;

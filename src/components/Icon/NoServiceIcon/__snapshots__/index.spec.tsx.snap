@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoServiceIcon renders correctly 1`] = `
+<RNSVGSvgView
+  align="xMidYMid"
+  bbHeight={140}
+  bbWidth={140}
+  fill="none"
+  focusable={false}
+  height={140}
+  meetOrSlice={0}
+  minX={0}
+  minY={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      undefined,
+      Object {
+        "opacity": 1,
+      },
+      Object {
+        "flex": 0,
+        "height": 140,
+        "width": 140,
+      },
+    ]
+  }
+  vbHeight={140}
+  vbWidth={140}
+  width={140}
+>
+  <RNSVGGroup
+    fill={null}
+    fillOpacity={1}
+    fillRule={1}
+    font={Object {}}
+    matrix={
+      Array [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+      ]
+    }
+    opacity={1}
+    originX={0}
+    originY={0}
+    propList={
+      Array [
+        "fill",
+      ]
+    }
+    rotation={0}
+    scaleX={1}
+    scaleY={1}
+    skewX={0}
+    skewY={0}
+    stroke={null}
+    strokeDasharray={null}
+    strokeDashoffset={null}
+    strokeLinecap={0}
+    strokeLinejoin={0}
+    strokeMiterlimit={4}
+    strokeOpacity={1}
+    strokeWidth={1}
+    vectorEffect={0}
+    x={0}
+    y={0}
+  >
+    <RNSVGPath
+      d="M51.2071 49.2929C50.8166 48.9024 50.1834 48.9024 49.7929 49.2929C49.4024 49.6834 49.4024 50.3166 49.7929 50.7071L69.0858 70.0001L49.793 89.2929C49.4025 89.6834 49.4025 90.3166 49.793 90.7071C50.1835 91.0976 50.8167 91.0976 51.2072 90.7071L70.5001 71.4143L89.7929 90.7071C90.1834 91.0976 90.8166 91.0976 91.2071 90.7071C91.5976 90.3166 91.5976 89.6834 91.2071 89.2929L71.9143 70.0001L91.2072 50.7071C91.5978 50.3166 91.5978 49.6834 91.2072 49.2929C90.8167 48.9024 90.1835 48.9024 89.793 49.2929L70.5001 68.5858L51.2071 49.2929Z"
+      fill={
+        Array [
+          0,
+          4292927712,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth={1}
+      vectorEffect={0}
+      x={0}
+      y={0}
+    />
+    <RNSVGCircle
+      cx="70.5"
+      cy="70"
+      fill={
+        Array [
+          0,
+          4278190080,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "stroke",
+        ]
+      }
+      r="59"
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={
+        Array [
+          0,
+          4293585642,
+        ]
+      }
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth={1}
+      vectorEffect={0}
+      x={0}
+      y={0}
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;

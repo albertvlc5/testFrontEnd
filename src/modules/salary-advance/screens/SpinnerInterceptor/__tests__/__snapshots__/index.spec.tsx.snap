@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner Intercept Screen should render component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    animating={true}
+    animationDuration={4000}
+    animationEasing={[Function]}
+    color="#11bb77"
+    hideAnimationDuration={200}
+    interaction={true}
+    renderComponent={[Function]}
+    style={
+      Object {
+        "height": 50,
+        "opacity": 1,
+        "width": 50,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 50,
+            "transform": Array [
+              Object {
+                "rotate": "82.5deg",
+              },
+              Object {
+                "rotate": "0deg",
+              },
+            ],
+            "width": 50,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "height": 25,
+              "overflow": "hidden",
+              "width": 50,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 50,
+                "transform": Array [
+                  Object {
+                    "translateY": 0,
+                  },
+                  Object {
+                    "rotate": "-172.5deg",
+                  },
+                ],
+                "width": 50,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "height": 25,
+                  "overflow": "hidden",
+                  "width": 50,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "borderColor": "#11bb77",
+                    "borderRadius": 25,
+                    "borderWidth": 5,
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 50,
+            "transform": Array [
+              Object {
+                "rotate": "82.5deg",
+              },
+              Object {
+                "rotate": "0deg",
+              },
+            ],
+            "width": 50,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "height": 25,
+              "overflow": "hidden",
+              "top": 25,
+              "width": 50,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 50,
+                "transform": Array [
+                  Object {
+                    "translateY": -25,
+                  },
+                  Object {
+                    "rotate": "352.5deg",
+                  },
+                ],
+                "width": 50,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "height": 25,
+                  "overflow": "hidden",
+                  "width": 50,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "borderColor": "#11bb77",
+                    "borderRadius": 25,
+                    "borderWidth": 5,
+                    "height": 50,
+                    "width": 50,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

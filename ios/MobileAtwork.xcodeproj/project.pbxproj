@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* MobileAtworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MobileAtworkTests.m */; };
+		017AD6B046AFB8137EF3FA99 /* libPods-MobileAtwork-MobileAtworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF612898E1AB1D1F6B60B764 /* libPods-MobileAtwork-MobileAtworkTests.a */; };
+		01D8E0BE2FFD4B63B60E0638 /* HelveticaNowDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A565DB1101494702BEAA6025 /* HelveticaNowDisplay-Black.ttf */; };
+		028FED5FB5534FFDB514B03C /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D2FA4A4C94D14ACA0E9D5 /* Nunito-ExtraLight.ttf */; };
+		033440F2C84A4E4998C34158 /* HelveticaNowDisplay-LightIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 070D2E9567DC4510B84800E4 /* HelveticaNowDisplay-LightIta.ttf */; };
+		08C7599D0FA54A4CB1F1BCE9 /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC1F6037CBD48D79BC7BC21 /* NunitoSans-ExtraBoldItalic.ttf */; };
+		0B20E225158E4EB594C0E474 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B73BD4D9A53D4C2F8FC7AC46 /* Nunito-Light.ttf */; };
+		0BF559AF7DBF4EB2A46E127A /* WorkSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC17516CE52D4E26AF6AD49C /* WorkSans-ExtraBold.otf */; };
+		124D860B3E0B4A8FBDB17CBA /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5934CF96F8A5412F9FF4E1DE /* Nunito-Bold.ttf */; };
+		128ABB8EAE6D41418D189C90 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1681A0FDECA44C0969215C0 /* Nunito-BoldItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		147CB55D85A44F92915D5A39 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0DED05A9077476584295781 /* NunitoSans-SemiBold.ttf */; };
+		1BD7A90B8B090486ABA2CDF5 /* libPods-MobileAtwork-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEFF0F7DEDE341811E45A10 /* libPods-MobileAtwork-tvOSTests.a */; };
+		205988DD8AEB4CA5A3BF19D2 /* AmpleSoft-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 705CC37D40BC4225AC9C1669 /* AmpleSoft-Light.otf */; };
+		2239663BEF99491C8E31CDA7 /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5184315F8640E08F830AC9 /* NunitoSans-ExtraLight.ttf */; };
+		24364884EA3A48CBBAE6B460 /* HelveticaNowDisplay-ExtBlkIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5710C8FFA61E4C0F94C4E97C /* HelveticaNowDisplay-ExtBlkIta.ttf */; };
+		24E0A0D2F4EC4029B85C536D /* WorkSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A65EDD67F7D1497582C21132 /* WorkSans-Light.otf */; };
+		2CA1B907DD354BBF86DF669B /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF32E0DF391843F48792174D /* Nunito-Regular.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* MobileAtworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MobileAtworkTests.m */; };
+		3458E2CCBA8B4D1AB0A0F89D /* AmpleSoft.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9111FFBA62479DB4B068FB /* AmpleSoft.otf */; };
+		34C4470623FD4E2580C9A204 /* Mute-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23D70D54392640CDA82B8647 /* Mute-Medium.otf */; };
+		34CC887670D84234BD5B6E93 /* Mute-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE80FA38C18C4A4DB92242A3 /* Mute-Bold.otf */; };
+		3A5822DE036C43969400037E /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB7A4C4EBB6416182E11D85 /* NunitoSans-BoldItalic.ttf */; };
+		47994AC4BE9B4D56BB2748B3 /* HelveticaNowDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA2DFB5EAE4F658A5641DB /* HelveticaNowDisplay-Medium.ttf */; };
+		53DA7B93A2C74674BD00AFBA /* Mute-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA780104CBAF4BBFA2BFAEA5 /* Mute-Semibold.otf */; };
+		57E7894645BE4D8EBE3E6050 /* HelveticaNowDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B6BE54BE60D4CFAB6D6B300 /* HelveticaNowDisplay-Bold.ttf */; };
+		5871036BC0394AC29DCD03C3 /* Mute-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB0CAC1E5D5C43D1BDB41A88 /* Mute-MediumItalic.otf */; };
+		61C0FE118E584A7EBC4747B5 /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286FAEFB897143FFB341025A /* WorkSans-Regular.otf */; };
+		62E896EFC0E84AD9B6BA0067 /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DD2973253F475D81FC29A6 /* NunitoSans-ExtraBold.ttf */; };
+		640CC0622F174228BEF40A6C /* WorkSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A0509EDCF364BD4A867BDE2 /* WorkSans-Medium.otf */; };
+		6A0B7F653EE548119FF9BCF1 /* HelveticaNowDisplay-HairlineI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2740ED8602EC49D097955EBD /* HelveticaNowDisplay-HairlineI.ttf */; };
+		6A7814A9F93446D99BE91373 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85DBBF10049D4DD18AD8BEA1 /* Nunito-BlackItalic.ttf */; };
+		70848AF281054226B2F6E62D /* HelveticaNowDisplay-MedIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FD32624CF42238A6A7D8B /* HelveticaNowDisplay-MedIta.ttf */; };
+		720657507E614B4EA496EE39 /* AmpleSoft-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 182DAC063C9E44D18F151B78 /* AmpleSoft-ExtraLight.otf */; };
+		746AC2FB98C0476EAADD795C /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E603DA028F9D441C99A8DA8F /* WorkSans-Bold.otf */; };
+		756C582439EB47C19FD78D45 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A19F53A6AE8746C2B42A305F /* NunitoSans-Regular.ttf */; };
+		75D9BA057F784092BA045565 /* HelveticaNowDisplay-ExtBlk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8BC091DA15441E8DC3D715 /* HelveticaNowDisplay-ExtBlk.ttf */; };
+		765F61D38D6F457EA91A5988 /* HelveticaNowDisplay-ExtBdIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54698EAE3CAB4D8E8AE6B8CF /* HelveticaNowDisplay-ExtBdIta.ttf */; };
+		776835EE0987442AB1792D54 /* WorkSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 338D3339A0B6465B86F9012B /* WorkSans-Thin.otf */; };
+		7B6D20787E2E4DF4A9407751 /* Mute-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A95C8373BD1D4B9E9B12133D /* Mute-LightItalic.otf */; };
+		7BC39E8BD7074E43835F0DB4 /* Mute-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC23D9C5C1498BA6F5CFCD /* Mute-SemiboldItalic.otf */; };
+		7D4CB391FB654303B3494C50 /* AmpleSoft-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC872EE384D64EA4981D00CC /* AmpleSoft-Bold.otf */; };
+		8138E4EFD8554B0D8BC15DC6 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A83CABFC5FD4860B6A9EEBB /* Nunito-ExtraBoldItalic.ttf */; };
+		83044A263F244ABDB814FC61 /* HelveticaNowDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17ACF2468C5D4F2FBF41B17B /* HelveticaNowDisplay-Light.ttf */; };
+		87F2538A4FF04908A62C28AF /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 320ECF09759449B686F3E0BD /* NunitoSans-Black.ttf */; };
+		8895A3278C994C18A22D726F /* HelveticaNowDisplay-BlackIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3AD1C117E243359DA45B84 /* HelveticaNowDisplay-BlackIta.ttf */; };
+		8D783525254757F0006EE0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D783524254757F0006EE0DF /* LaunchScreen.storyboard */; };
+		8D783526254757F0006EE0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D783524254757F0006EE0DF /* LaunchScreen.storyboard */; };
+		8F09B326731197D2EFF19A9B /* libPods-MobileAtwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ABBBF79D77FF2583701914 /* libPods-MobileAtwork-tvOS.a */; };
+		93E46FF0076C4CB09A1F94F4 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B9183727DB4B16AADE454B /* Nunito-Black.ttf */; };
+		98B5F90FF4594C5E8E3AE700 /* HelveticaNowDisplay-ThinIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E2C5CE37490461FB2011174 /* HelveticaNowDisplay-ThinIta.ttf */; };
+		9B8A47B7A05C40DD8FE607A4 /* NunitoSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C60D5357FA94243A6FBA496 /* NunitoSans-Light.otf */; };
+		A30C5BCAC25B4319AC17EA73 /* NunitoSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86499696B1E14AEEB8E3C445 /* NunitoSans-SemiBold.otf */; };
+		A34FED2580E44556892C0CAC /* Tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EE79B80986468689F5FDB9 /* Tahoma.ttf */; };
+		AD073A22870B4A3495EA578A /* HelveticaNowDisplay-BoldIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77379D07B7DC40F3B1B4E7E9 /* HelveticaNowDisplay-BoldIta.ttf */; };
+		B05EFBE030EB4253B5CFE9DF /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBB35894ADA54AA999EB3BC3 /* NunitoSans-Italic.ttf */; };
+		B0A9BB7048B248ED8FF6A81C /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76489544376D439DBC24BBF0 /* NunitoSans-ExtraLightItalic.ttf */; };
+		B0AB0315E6F44FAC9BDD84DF /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBE3E49E7B4A26A2140B6C /* Nunito-SemiBold.ttf */; };
+		B784581B52974323A4977F35 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BDBC62ECA4AA99DA51837 /* NunitoSans-Light.ttf */; };
+		BE817F78352F491AB003E654 /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7D3AE448011498FA2A179BD /* NunitoSans-SemiBoldItalic.ttf */; };
+		D19177631CCA4A88856E1568 /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DFBA56BD68641848FB0E87C /* Georgia.ttf */; };
+		D206771D17FE4BF0B546B914 /* AmpleSoft-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94BDEFDB62AF469D8356FE2E /* AmpleSoft-Thin.otf */; };
+		D20B30CECF9C44C697DE52BA /* HelveticaNowDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04548A3776DD49A29A72EBD3 /* HelveticaNowDisplay-ExtraBold.ttf */; };
+		D3496C08D48341479F5BE4B7 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BDADC94F6E4C8587D834A8 /* Nunito-ExtraBold.ttf */; };
+		D43377F6E8BA49C092781D2B /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD3FC6C1FB52472889A66B98 /* Nunito-SemiBoldItalic.ttf */; };
+		D52E202F56C24EDD846DB198 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA78C1631F404AFA863700B6 /* Nunito-LightItalic.ttf */; };
+		D9940A80E2BC4C49BD7FFDE8 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C9FF7B417724151967BABFF /* Nunito-Italic.ttf */; };
+		DAF98E19E3FB4210A80845F0 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE2D17D3088D4F3CB674E08E /* Nunito-ExtraLightItalic.ttf */; };
+		E324AC2FC28F4E308276368C /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C01AB3A7EF344C47BD8923F9 /* NunitoSans-LightItalic.ttf */; };
+		E5B1CA6DD8224A57B41512D9 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514AA480E9CF46C1BA304DC3 /* NunitoSans-Bold.ttf */; };
+		E6D41ACDDFD3447C9BCD4608 /* Mute-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2926C45BC5BD458F8FF2789B /* Mute-Light.otf */; };
+		EBC6B2B53A9D4465B80C2EA0 /* HelveticaNowDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79FD4620968E41DDAC120F5C /* HelveticaNowDisplay-Regular.ttf */; };
+		ED56FB692E6B483B9A1652A6 /* HelveticaNowDisplay-RegIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD19B2846624D4AA021AACA /* HelveticaNowDisplay-RegIta.ttf */; };
+		ED6CE8D7463C4B5799ADE475 /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C64359FC7F7E40C2BA75213A /* NunitoSans-BlackItalic.ttf */; };
+		EE128EA0A4C34055A8B7FFC3 /* HelveticaNowDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEE298531C8548EB91B5E884 /* HelveticaNowDisplay-Thin.ttf */; };
+		F049CCD5CFEF43D6B34DA2BD /* HelveticaNowDisplay-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26D195E1A0514402AD21AA9E /* HelveticaNowDisplay-Hairline.ttf */; };
+		F0A9D33D4D88413596200417 /* AmpleSoft-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC391DF6BCC4C6CA4496AE2 /* AmpleSoft-Medium.otf */; };
+		F1DA015134B14CACA32F91B4 /* HelveticaNowDisplay-ExtLtIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4FB8D7924420DB7EBFD4B /* HelveticaNowDisplay-ExtLtIta.ttf */; };
+		F63D7E962DE74D98AF09B595 /* WorkSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1A728F10836411B8BFE3CEF /* WorkSans-SemiBold.otf */; };
+		FD4D43EFC99BEE813F905ED1 /* libPods-MobileAtwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73E95B0CCF6164C5E9983A /* libPods-MobileAtwork.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MobileAtwork;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "MobileAtwork-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* MobileAtworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAtworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MobileAtworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAtworkTests.m; sourceTree = "<group>"; };
+		04548A3776DD49A29A72EBD3 /* HelveticaNowDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ExtraBold.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		070D2E9567DC4510B84800E4 /* HelveticaNowDisplay-LightIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-LightIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-LightIta.ttf"; sourceTree = "<group>"; };
+		0C60D5357FA94243A6FBA496 /* NunitoSans-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Light.otf"; path = "../node_modules/mobile-styles/assets/fonts/NunitoSans-Light.otf"; sourceTree = "<group>"; };
+		0D8BC091DA15441E8DC3D715 /* HelveticaNowDisplay-ExtBlk.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ExtBlk.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ExtBlk.ttf"; sourceTree = "<group>"; };
+		0DFBA56BD68641848FB0E87C /* Georgia.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Georgia.ttf; path = "../node_modules/mobile-styles/assets/fonts/Georgia.ttf"; sourceTree = "<group>"; };
+		0FCA2DFB5EAE4F658A5641DB /* HelveticaNowDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Medium.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MobileAtwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAtwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MobileAtwork/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MobileAtwork/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MobileAtwork/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobileAtwork/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MobileAtwork/main.m; sourceTree = "<group>"; };
+		15DD2973253F475D81FC29A6 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraBold.ttf"; path = "../assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		17ACF2468C5D4F2FBF41B17B /* HelveticaNowDisplay-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Light.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Light.ttf"; sourceTree = "<group>"; };
+		182DAC063C9E44D18F151B78 /* AmpleSoft-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmpleSoft-ExtraLight.otf"; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft-ExtraLight.otf"; sourceTree = "<group>"; };
+		1E0727DB5D07AEF233D26932 /* Pods-MobileAtwork-MobileAtworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-MobileAtworkTests.debug.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-MobileAtworkTests/Pods-MobileAtwork-MobileAtworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC391DF6BCC4C6CA4496AE2 /* AmpleSoft-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmpleSoft-Medium.otf"; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft-Medium.otf"; sourceTree = "<group>"; };
+		1F5FD32624CF42238A6A7D8B /* HelveticaNowDisplay-MedIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-MedIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-MedIta.ttf"; sourceTree = "<group>"; };
+		235570EEE5F9C520A1E009B3 /* Pods-MobileAtwork-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-tvOS/Pods-MobileAtwork-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		23D70D54392640CDA82B8647 /* Mute-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-Medium.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-Medium.otf"; sourceTree = "<group>"; };
+		24D0F4055D689784A10C57EF /* Pods-MobileAtwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork.release.xcconfig"; path = "Target Support Files/Pods-MobileAtwork/Pods-MobileAtwork.release.xcconfig"; sourceTree = "<group>"; };
+		26D195E1A0514402AD21AA9E /* HelveticaNowDisplay-Hairline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Hairline.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Hairline.ttf"; sourceTree = "<group>"; };
+		2740ED8602EC49D097955EBD /* HelveticaNowDisplay-HairlineI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-HairlineI.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-HairlineI.ttf"; sourceTree = "<group>"; };
+		286FAEFB897143FFB341025A /* WorkSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Regular.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-Regular.otf"; sourceTree = "<group>"; };
+		2926C45BC5BD458F8FF2789B /* Mute-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-Light.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-Light.otf"; sourceTree = "<group>"; };
+		2A0509EDCF364BD4A867BDE2 /* WorkSans-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Medium.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-Medium.otf"; sourceTree = "<group>"; };
+		2C9FF7B417724151967BABFF /* Nunito-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic.ttf"; path = "../assets/fonts/Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MobileAtwork-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileAtwork-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MobileAtwork-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileAtwork-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F369B57E3D11E612A0C214 /* Pods-MobileAtwork-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-tvOS/Pods-MobileAtwork-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		320ECF09759449B686F3E0BD /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Black.ttf"; path = "../assets/fonts/NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		338D3339A0B6465B86F9012B /* WorkSans-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Thin.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-Thin.otf"; sourceTree = "<group>"; };
+		36BDADC94F6E4C8587D834A8 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3C971906637A36112CB4B2C9 /* Pods-MobileAtwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork.debug.xcconfig"; path = "Target Support Files/Pods-MobileAtwork/Pods-MobileAtwork.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2C5CE37490461FB2011174 /* HelveticaNowDisplay-ThinIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ThinIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ThinIta.ttf"; sourceTree = "<group>"; };
+		3FBC23D9C5C1498BA6F5CFCD /* Mute-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-SemiboldItalic.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		4B6BE54BE60D4CFAB6D6B300 /* HelveticaNowDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Bold.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		4B9D2FA4A4C94D14ACA0E9D5 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLight.ttf"; path = "../assets/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4CCBE3E49E7B4A26A2140B6C /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D9111FFBA62479DB4B068FB /* AmpleSoft.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AmpleSoft.otf; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft.otf"; sourceTree = "<group>"; };
+		514AA480E9CF46C1BA304DC3 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Bold.ttf"; path = "../assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		54698EAE3CAB4D8E8AE6B8CF /* HelveticaNowDisplay-ExtBdIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ExtBdIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ExtBdIta.ttf"; sourceTree = "<group>"; };
+		5710C8FFA61E4C0F94C4E97C /* HelveticaNowDisplay-ExtBlkIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ExtBlkIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ExtBlkIta.ttf"; sourceTree = "<group>"; };
+		5934CF96F8A5412F9FF4E1DE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		5A83CABFC5FD4860B6A9EEBB /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBoldItalic.ttf"; path = "../assets/fonts/Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5AEFF0F7DEDE341811E45A10 /* libPods-MobileAtwork-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileAtwork-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5184315F8640E08F830AC9 /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraLight.ttf"; path = "../assets/fonts/NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6A7BDBC62ECA4AA99DA51837 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Light.ttf"; path = "../assets/fonts/NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		705CC37D40BC4225AC9C1669 /* AmpleSoft-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmpleSoft-Light.otf"; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft-Light.otf"; sourceTree = "<group>"; };
+		76489544376D439DBC24BBF0 /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraLightItalic.ttf"; path = "../assets/fonts/NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		77379D07B7DC40F3B1B4E7E9 /* HelveticaNowDisplay-BoldIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-BoldIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-BoldIta.ttf"; sourceTree = "<group>"; };
+		79FD4620968E41DDAC120F5C /* HelveticaNowDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Regular.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		7FC4FB8D7924420DB7EBFD4B /* HelveticaNowDisplay-ExtLtIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-ExtLtIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-ExtLtIta.ttf"; sourceTree = "<group>"; };
+		85DBBF10049D4DD18AD8BEA1 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BlackItalic.ttf"; path = "../assets/fonts/Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		85EE79B80986468689F5FDB9 /* Tahoma.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Tahoma.ttf; path = "../node_modules/mobile-styles/assets/fonts/Tahoma.ttf"; sourceTree = "<group>"; };
+		86499696B1E14AEEB8E3C445 /* NunitoSans-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBold.otf"; path = "../node_modules/mobile-styles/assets/fonts/NunitoSans-SemiBold.otf"; sourceTree = "<group>"; };
+		8D783524254757F0006EE0DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobileAtwork/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94BDEFDB62AF469D8356FE2E /* AmpleSoft-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmpleSoft-Thin.otf"; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft-Thin.otf"; sourceTree = "<group>"; };
+		94DDF1B397623DC12BFA6BD5 /* Pods-MobileAtwork-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-tvOSTests/Pods-MobileAtwork-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BC1F6037CBD48D79BC7BC21 /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A19F53A6AE8746C2B42A305F /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Regular.ttf"; path = "../assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A1A728F10836411B8BFE3CEF /* WorkSans-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-SemiBold.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-SemiBold.otf"; sourceTree = "<group>"; };
+		A565DB1101494702BEAA6025 /* HelveticaNowDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Black.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Black.ttf"; sourceTree = "<group>"; };
+		A65EDD67F7D1497582C21132 /* WorkSans-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Light.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-Light.otf"; sourceTree = "<group>"; };
+		A95C8373BD1D4B9E9B12133D /* Mute-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-LightItalic.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-LightItalic.otf"; sourceTree = "<group>"; };
+		AF612898E1AB1D1F6B60B764 /* libPods-MobileAtwork-MobileAtworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileAtwork-MobileAtworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73BD4D9A53D4C2F8FC7AC46 /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		B8ABBBF79D77FF2583701914 /* libPods-MobileAtwork-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileAtwork-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC17516CE52D4E26AF6AD49C /* WorkSans-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-ExtraBold.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-ExtraBold.otf"; sourceTree = "<group>"; };
+		BE2D17D3088D4F3CB674E08E /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLightItalic.ttf"; path = "../assets/fonts/Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		BE73E95B0CCF6164C5E9983A /* libPods-MobileAtwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileAtwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3AD1C117E243359DA45B84 /* HelveticaNowDisplay-BlackIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-BlackIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-BlackIta.ttf"; sourceTree = "<group>"; };
+		C01AB3A7EF344C47BD8923F9 /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-LightItalic.ttf"; path = "../assets/fonts/NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		C64359FC7F7E40C2BA75213A /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-BlackItalic.ttf"; path = "../assets/fonts/NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C7D3AE448011498FA2A179BD /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBoldItalic.ttf"; path = "../assets/fonts/NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CA78C1631F404AFA863700B6 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-LightItalic.ttf"; path = "../assets/fonts/Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		DA780104CBAF4BBFA2BFAEA5 /* Mute-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-Semibold.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-Semibold.otf"; sourceTree = "<group>"; };
+		DF32E0DF391843F48792174D /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		DFD19B2846624D4AA021AACA /* HelveticaNowDisplay-RegIta.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-RegIta.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-RegIta.ttf"; sourceTree = "<group>"; };
+		E0DED05A9077476584295781 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBold.ttf"; path = "../assets/fonts/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E5B9183727DB4B16AADE454B /* Nunito-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Black.ttf"; path = "../assets/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; };
+		E603DA028F9D441C99A8DA8F /* WorkSans-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Bold.otf"; path = "../node_modules/mobile-styles/assets/fonts/WorkSans-Bold.otf"; sourceTree = "<group>"; };
+		E6343DFD5D4F8F48FF71D590 /* Pods-MobileAtwork-MobileAtworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-MobileAtworkTests.release.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-MobileAtworkTests/Pods-MobileAtwork-MobileAtworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0CAC1E5D5C43D1BDB41A88 /* Mute-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-MediumItalic.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-MediumItalic.otf"; sourceTree = "<group>"; };
+		EC872EE384D64EA4981D00CC /* AmpleSoft-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmpleSoft-Bold.otf"; path = "../node_modules/mobile-styles/assets/fonts/AmpleSoft-Bold.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDB7A4C4EBB6416182E11D85 /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-BoldItalic.ttf"; path = "../assets/fonts/NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F1681A0FDECA44C0969215C0 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BoldItalic.ttf"; path = "../assets/fonts/Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F26EEF7711655E04C351A127 /* Pods-MobileAtwork-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAtwork-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MobileAtwork-tvOSTests/Pods-MobileAtwork-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB35894ADA54AA999EB3BC3 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Italic.ttf"; path = "../assets/fonts/NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		FD3FC6C1FB52472889A66B98 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBoldItalic.ttf"; path = "../assets/fonts/Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FE80FA38C18C4A4DB92242A3 /* Mute-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mute-Bold.otf"; path = "../node_modules/mobile-styles/assets/fonts/Mute-Bold.otf"; sourceTree = "<group>"; };
+		FEE298531C8548EB91B5E884 /* HelveticaNowDisplay-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Thin.ttf"; path = "../node_modules/mobile-styles/assets/fonts/HelveticaNowDisplay-Thin.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017AD6B046AFB8137EF3FA99 /* libPods-MobileAtwork-MobileAtworkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4D43EFC99BEE813F905ED1 /* libPods-MobileAtwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F09B326731197D2EFF19A9B /* libPods-MobileAtwork-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD7A90B8B090486ABA2CDF5 /* libPods-MobileAtwork-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MobileAtworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MobileAtworkTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MobileAtworkTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MobileAtwork */ = {
+			isa = PBXGroup;
+			children = (
+				8D783524254757F0006EE0DF /* LaunchScreen.storyboard */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = MobileAtwork;
+			sourceTree = "<group>";
+		};
+		2687A8E9ECE9EE9B7288133B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C971906637A36112CB4B2C9 /* Pods-MobileAtwork.debug.xcconfig */,
+				24D0F4055D689784A10C57EF /* Pods-MobileAtwork.release.xcconfig */,
+				1E0727DB5D07AEF233D26932 /* Pods-MobileAtwork-MobileAtworkTests.debug.xcconfig */,
+				E6343DFD5D4F8F48FF71D590 /* Pods-MobileAtwork-MobileAtworkTests.release.xcconfig */,
+				235570EEE5F9C520A1E009B3 /* Pods-MobileAtwork-tvOS.debug.xcconfig */,
+				31F369B57E3D11E612A0C214 /* Pods-MobileAtwork-tvOS.release.xcconfig */,
+				F26EEF7711655E04C351A127 /* Pods-MobileAtwork-tvOSTests.debug.xcconfig */,
+				94DDF1B397623DC12BFA6BD5 /* Pods-MobileAtwork-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				BE73E95B0CCF6164C5E9983A /* libPods-MobileAtwork.a */,
+				AF612898E1AB1D1F6B60B764 /* libPods-MobileAtwork-MobileAtworkTests.a */,
+				B8ABBBF79D77FF2583701914 /* libPods-MobileAtwork-tvOS.a */,
+				5AEFF0F7DEDE341811E45A10 /* libPods-MobileAtwork-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MobileAtwork */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MobileAtworkTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2687A8E9ECE9EE9B7288133B /* Pods */,
+				C125E083DDE4432D826EF720 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MobileAtwork.app */,
+				00E356EE1AD99517003FC87E /* MobileAtworkTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MobileAtwork-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MobileAtwork-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C125E083DDE4432D826EF720 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B9183727DB4B16AADE454B /* Nunito-Black.ttf */,
+				85DBBF10049D4DD18AD8BEA1 /* Nunito-BlackItalic.ttf */,
+				5934CF96F8A5412F9FF4E1DE /* Nunito-Bold.ttf */,
+				F1681A0FDECA44C0969215C0 /* Nunito-BoldItalic.ttf */,
+				36BDADC94F6E4C8587D834A8 /* Nunito-ExtraBold.ttf */,
+				5A83CABFC5FD4860B6A9EEBB /* Nunito-ExtraBoldItalic.ttf */,
+				4B9D2FA4A4C94D14ACA0E9D5 /* Nunito-ExtraLight.ttf */,
+				BE2D17D3088D4F3CB674E08E /* Nunito-ExtraLightItalic.ttf */,
+				2C9FF7B417724151967BABFF /* Nunito-Italic.ttf */,
+				B73BD4D9A53D4C2F8FC7AC46 /* Nunito-Light.ttf */,
+				CA78C1631F404AFA863700B6 /* Nunito-LightItalic.ttf */,
+				DF32E0DF391843F48792174D /* Nunito-Regular.ttf */,
+				4CCBE3E49E7B4A26A2140B6C /* Nunito-SemiBold.ttf */,
+				FD3FC6C1FB52472889A66B98 /* Nunito-SemiBoldItalic.ttf */,
+				320ECF09759449B686F3E0BD /* NunitoSans-Black.ttf */,
+				C64359FC7F7E40C2BA75213A /* NunitoSans-BlackItalic.ttf */,
+				514AA480E9CF46C1BA304DC3 /* NunitoSans-Bold.ttf */,
+				EDB7A4C4EBB6416182E11D85 /* NunitoSans-BoldItalic.ttf */,
+				15DD2973253F475D81FC29A6 /* NunitoSans-ExtraBold.ttf */,
+				9BC1F6037CBD48D79BC7BC21 /* NunitoSans-ExtraBoldItalic.ttf */,
+				5E5184315F8640E08F830AC9 /* NunitoSans-ExtraLight.ttf */,
+				76489544376D439DBC24BBF0 /* NunitoSans-ExtraLightItalic.ttf */,
+				FBB35894ADA54AA999EB3BC3 /* NunitoSans-Italic.ttf */,
+				6A7BDBC62ECA4AA99DA51837 /* NunitoSans-Light.ttf */,
+				C01AB3A7EF344C47BD8923F9 /* NunitoSans-LightItalic.ttf */,
+				A19F53A6AE8746C2B42A305F /* NunitoSans-Regular.ttf */,
+				E0DED05A9077476584295781 /* NunitoSans-SemiBold.ttf */,
+				C7D3AE448011498FA2A179BD /* NunitoSans-SemiBoldItalic.ttf */,
+				EC872EE384D64EA4981D00CC /* AmpleSoft-Bold.otf */,
+				182DAC063C9E44D18F151B78 /* AmpleSoft-ExtraLight.otf */,
+				705CC37D40BC4225AC9C1669 /* AmpleSoft-Light.otf */,
+				1EC391DF6BCC4C6CA4496AE2 /* AmpleSoft-Medium.otf */,
+				94BDEFDB62AF469D8356FE2E /* AmpleSoft-Thin.otf */,
+				4D9111FFBA62479DB4B068FB /* AmpleSoft.otf */,
+				0DFBA56BD68641848FB0E87C /* Georgia.ttf */,
+				FE80FA38C18C4A4DB92242A3 /* Mute-Bold.otf */,
+				2926C45BC5BD458F8FF2789B /* Mute-Light.otf */,
+				A95C8373BD1D4B9E9B12133D /* Mute-LightItalic.otf */,
+				23D70D54392640CDA82B8647 /* Mute-Medium.otf */,
+				EB0CAC1E5D5C43D1BDB41A88 /* Mute-MediumItalic.otf */,
+				DA780104CBAF4BBFA2BFAEA5 /* Mute-Semibold.otf */,
+				3FBC23D9C5C1498BA6F5CFCD /* Mute-SemiboldItalic.otf */,
+				0C60D5357FA94243A6FBA496 /* NunitoSans-Light.otf */,
+				86499696B1E14AEEB8E3C445 /* NunitoSans-SemiBold.otf */,
+				85EE79B80986468689F5FDB9 /* Tahoma.ttf */,
+				E603DA028F9D441C99A8DA8F /* WorkSans-Bold.otf */,
+				BC17516CE52D4E26AF6AD49C /* WorkSans-ExtraBold.otf */,
+				A65EDD67F7D1497582C21132 /* WorkSans-Light.otf */,
+				2A0509EDCF364BD4A867BDE2 /* WorkSans-Medium.otf */,
+				286FAEFB897143FFB341025A /* WorkSans-Regular.otf */,
+				A1A728F10836411B8BFE3CEF /* WorkSans-SemiBold.otf */,
+				338D3339A0B6465B86F9012B /* WorkSans-Thin.otf */,
+				A565DB1101494702BEAA6025 /* HelveticaNowDisplay-Black.ttf */,
+				BF3AD1C117E243359DA45B84 /* HelveticaNowDisplay-BlackIta.ttf */,
+				4B6BE54BE60D4CFAB6D6B300 /* HelveticaNowDisplay-Bold.ttf */,
+				77379D07B7DC40F3B1B4E7E9 /* HelveticaNowDisplay-BoldIta.ttf */,
+				54698EAE3CAB4D8E8AE6B8CF /* HelveticaNowDisplay-ExtBdIta.ttf */,
+				0D8BC091DA15441E8DC3D715 /* HelveticaNowDisplay-ExtBlk.ttf */,
+				5710C8FFA61E4C0F94C4E97C /* HelveticaNowDisplay-ExtBlkIta.ttf */,
+				7FC4FB8D7924420DB7EBFD4B /* HelveticaNowDisplay-ExtLtIta.ttf */,
+				04548A3776DD49A29A72EBD3 /* HelveticaNowDisplay-ExtraBold.ttf */,
+				26D195E1A0514402AD21AA9E /* HelveticaNowDisplay-Hairline.ttf */,
+				2740ED8602EC49D097955EBD /* HelveticaNowDisplay-HairlineI.ttf */,
+				17ACF2468C5D4F2FBF41B17B /* HelveticaNowDisplay-Light.ttf */,
+				070D2E9567DC4510B84800E4 /* HelveticaNowDisplay-LightIta.ttf */,
+				1F5FD32624CF42238A6A7D8B /* HelveticaNowDisplay-MedIta.ttf */,
+				0FCA2DFB5EAE4F658A5641DB /* HelveticaNowDisplay-Medium.ttf */,
+				DFD19B2846624D4AA021AACA /* HelveticaNowDisplay-RegIta.ttf */,
+				79FD4620968E41DDAC120F5C /* HelveticaNowDisplay-Regular.ttf */,
+				FEE298531C8548EB91B5E884 /* HelveticaNowDisplay-Thin.ttf */,
+				3E2C5CE37490461FB2011174 /* HelveticaNowDisplay-ThinIta.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MobileAtworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MobileAtworkTests" */;
+			buildPhases = (
+				D999AC13502DE0443D222404 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				4C8D1E7A587C345917A93096 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MobileAtworkTests;
+			productName = MobileAtworkTests;
+			productReference = 00E356EE1AD99517003FC87E /* MobileAtworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MobileAtwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MobileAtwork" */;
+			buildPhases = (
+				82AE2D468B6A8B9B8F5EC533 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				34DA3A2642A2E24E6D2321CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileAtwork;
+			productName = MobileAtwork;
+			productReference = 13B07F961A680F5B00A75B9A /* MobileAtwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* MobileAtwork-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MobileAtwork-tvOS" */;
+			buildPhases = (
+				3D991B703CE7F9894DF86E26 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileAtwork-tvOS";
+			productName = "MobileAtwork-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MobileAtwork-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* MobileAtwork-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MobileAtwork-tvOSTests" */;
+			buildPhases = (
+				A6BE0A0C9A402E59B88EC013 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "MobileAtwork-tvOSTests";
+			productName = "MobileAtwork-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MobileAtwork-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MobileAtwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MobileAtwork */,
+				00E356ED1AD99517003FC87E /* MobileAtworkTests */,
+				2D02E47A1E0B4A5D006451C7 /* MobileAtwork-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MobileAtwork-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				93E46FF0076C4CB09A1F94F4 /* Nunito-Black.ttf in Resources */,
+				8D783525254757F0006EE0DF /* LaunchScreen.storyboard in Resources */,
+				6A7814A9F93446D99BE91373 /* Nunito-BlackItalic.ttf in Resources */,
+				124D860B3E0B4A8FBDB17CBA /* Nunito-Bold.ttf in Resources */,
+				128ABB8EAE6D41418D189C90 /* Nunito-BoldItalic.ttf in Resources */,
+				D3496C08D48341479F5BE4B7 /* Nunito-ExtraBold.ttf in Resources */,
+				8138E4EFD8554B0D8BC15DC6 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				028FED5FB5534FFDB514B03C /* Nunito-ExtraLight.ttf in Resources */,
+				DAF98E19E3FB4210A80845F0 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				D9940A80E2BC4C49BD7FFDE8 /* Nunito-Italic.ttf in Resources */,
+				0B20E225158E4EB594C0E474 /* Nunito-Light.ttf in Resources */,
+				D52E202F56C24EDD846DB198 /* Nunito-LightItalic.ttf in Resources */,
+				2CA1B907DD354BBF86DF669B /* Nunito-Regular.ttf in Resources */,
+				B0AB0315E6F44FAC9BDD84DF /* Nunito-SemiBold.ttf in Resources */,
+				D43377F6E8BA49C092781D2B /* Nunito-SemiBoldItalic.ttf in Resources */,
+				87F2538A4FF04908A62C28AF /* NunitoSans-Black.ttf in Resources */,
+				ED6CE8D7463C4B5799ADE475 /* NunitoSans-BlackItalic.ttf in Resources */,
+				E5B1CA6DD8224A57B41512D9 /* NunitoSans-Bold.ttf in Resources */,
+				3A5822DE036C43969400037E /* NunitoSans-BoldItalic.ttf in Resources */,
+				62E896EFC0E84AD9B6BA0067 /* NunitoSans-ExtraBold.ttf in Resources */,
+				08C7599D0FA54A4CB1F1BCE9 /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				2239663BEF99491C8E31CDA7 /* NunitoSans-ExtraLight.ttf in Resources */,
+				B0A9BB7048B248ED8FF6A81C /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				B05EFBE030EB4253B5CFE9DF /* NunitoSans-Italic.ttf in Resources */,
+				B784581B52974323A4977F35 /* NunitoSans-Light.ttf in Resources */,
+				E324AC2FC28F4E308276368C /* NunitoSans-LightItalic.ttf in Resources */,
+				756C582439EB47C19FD78D45 /* NunitoSans-Regular.ttf in Resources */,
+				147CB55D85A44F92915D5A39 /* NunitoSans-SemiBold.ttf in Resources */,
+				BE817F78352F491AB003E654 /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				7D4CB391FB654303B3494C50 /* AmpleSoft-Bold.otf in Resources */,
+				720657507E614B4EA496EE39 /* AmpleSoft-ExtraLight.otf in Resources */,
+				205988DD8AEB4CA5A3BF19D2 /* AmpleSoft-Light.otf in Resources */,
+				F0A9D33D4D88413596200417 /* AmpleSoft-Medium.otf in Resources */,
+				D206771D17FE4BF0B546B914 /* AmpleSoft-Thin.otf in Resources */,
+				3458E2CCBA8B4D1AB0A0F89D /* AmpleSoft.otf in Resources */,
+				D19177631CCA4A88856E1568 /* Georgia.ttf in Resources */,
+				34CC887670D84234BD5B6E93 /* Mute-Bold.otf in Resources */,
+				E6D41ACDDFD3447C9BCD4608 /* Mute-Light.otf in Resources */,
+				7B6D20787E2E4DF4A9407751 /* Mute-LightItalic.otf in Resources */,
+				34C4470623FD4E2580C9A204 /* Mute-Medium.otf in Resources */,
+				5871036BC0394AC29DCD03C3 /* Mute-MediumItalic.otf in Resources */,
+				53DA7B93A2C74674BD00AFBA /* Mute-Semibold.otf in Resources */,
+				7BC39E8BD7074E43835F0DB4 /* Mute-SemiboldItalic.otf in Resources */,
+				9B8A47B7A05C40DD8FE607A4 /* NunitoSans-Light.otf in Resources */,
+				A30C5BCAC25B4319AC17EA73 /* NunitoSans-SemiBold.otf in Resources */,
+				A34FED2580E44556892C0CAC /* Tahoma.ttf in Resources */,
+				746AC2FB98C0476EAADD795C /* WorkSans-Bold.otf in Resources */,
+				0BF559AF7DBF4EB2A46E127A /* WorkSans-ExtraBold.otf in Resources */,
+				24E0A0D2F4EC4029B85C536D /* WorkSans-Light.otf in Resources */,
+				640CC0622F174228BEF40A6C /* WorkSans-Medium.otf in Resources */,
+				61C0FE118E584A7EBC4747B5 /* WorkSans-Regular.otf in Resources */,
+				F63D7E962DE74D98AF09B595 /* WorkSans-SemiBold.otf in Resources */,
+				776835EE0987442AB1792D54 /* WorkSans-Thin.otf in Resources */,
+				01D8E0BE2FFD4B63B60E0638 /* HelveticaNowDisplay-Black.ttf in Resources */,
+				8895A3278C994C18A22D726F /* HelveticaNowDisplay-BlackIta.ttf in Resources */,
+				57E7894645BE4D8EBE3E6050 /* HelveticaNowDisplay-Bold.ttf in Resources */,
+				AD073A22870B4A3495EA578A /* HelveticaNowDisplay-BoldIta.ttf in Resources */,
+				765F61D38D6F457EA91A5988 /* HelveticaNowDisplay-ExtBdIta.ttf in Resources */,
+				75D9BA057F784092BA045565 /* HelveticaNowDisplay-ExtBlk.ttf in Resources */,
+				24364884EA3A48CBBAE6B460 /* HelveticaNowDisplay-ExtBlkIta.ttf in Resources */,
+				F1DA015134B14CACA32F91B4 /* HelveticaNowDisplay-ExtLtIta.ttf in Resources */,
+				D20B30CECF9C44C697DE52BA /* HelveticaNowDisplay-ExtraBold.ttf in Resources */,
+				F049CCD5CFEF43D6B34DA2BD /* HelveticaNowDisplay-Hairline.ttf in Resources */,
+				6A0B7F653EE548119FF9BCF1 /* HelveticaNowDisplay-HairlineI.ttf in Resources */,
+				83044A263F244ABDB814FC61 /* HelveticaNowDisplay-Light.ttf in Resources */,
+				033440F2C84A4E4998C34158 /* HelveticaNowDisplay-LightIta.ttf in Resources */,
+				70848AF281054226B2F6E62D /* HelveticaNowDisplay-MedIta.ttf in Resources */,
+				47994AC4BE9B4D56BB2748B3 /* HelveticaNowDisplay-Medium.ttf in Resources */,
+				ED56FB692E6B483B9A1652A6 /* HelveticaNowDisplay-RegIta.ttf in Resources */,
+				EBC6B2B53A9D4465B80C2EA0 /* HelveticaNowDisplay-Regular.ttf in Resources */,
+				EE128EA0A4C34055A8B7FFC3 /* HelveticaNowDisplay-Thin.ttf in Resources */,
+				98B5F90FF4594C5E8E3AE700 /* HelveticaNowDisplay-ThinIta.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				8D783526254757F0006EE0DF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		34DA3A2642A2E24E6D2321CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileAtwork/Pods-MobileAtwork-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileAtwork/Pods-MobileAtwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D991B703CE7F9894DF86E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileAtwork-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8D1E7A587C345917A93096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileAtwork-MobileAtworkTests/Pods-MobileAtwork-MobileAtworkTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileAtwork-MobileAtworkTests/Pods-MobileAtwork-MobileAtworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AE2D468B6A8B9B8F5EC533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileAtwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BE0A0C9A402E59B88EC013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileAtwork-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D999AC13502DE0443D222404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileAtwork-MobileAtworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MobileAtworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* MobileAtworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MobileAtwork */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* MobileAtwork-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0727DB5D07AEF233D26932 /* Pods-MobileAtwork-MobileAtworkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobileAtworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAtwork.app/MobileAtwork";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6343DFD5D4F8F48FF71D590 /* Pods-MobileAtwork-MobileAtworkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = MobileAtworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAtwork.app/MobileAtwork";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C971906637A36112CB4B2C9 /* Pods-MobileAtwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = MobileAtwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MobileAtwork;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D0F4055D689784A10C57EF /* Pods-MobileAtwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MobileAtwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MobileAtwork;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235570EEE5F9C520A1E009B3 /* Pods-MobileAtwork-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MobileAtwork-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MobileAtwork-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F369B57E3D11E612A0C214 /* Pods-MobileAtwork-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MobileAtwork-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MobileAtwork-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26EEF7711655E04C351A127 /* Pods-MobileAtwork-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MobileAtwork-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MobileAtwork-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAtwork-tvOS.app/MobileAtwork-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DDF1B397623DC12BFA6BD5 /* Pods-MobileAtwork-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MobileAtwork-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MobileAtwork-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAtwork-tvOS.app/MobileAtwork-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MobileAtworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MobileAtwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MobileAtwork-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MobileAtwork-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MobileAtwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

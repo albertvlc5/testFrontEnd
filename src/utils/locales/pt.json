@@ -1,0 +1,15 @@
+{
+  "ERROR_FEEDBACK": {
+    "NO_INTERNET": {
+      "DESCRIPTION": "Seu dispositivo está sem internet. Confira a conexão e tente novamente",
+      "TITLE": "Sem internet"
+    },
+    "NO_SERVICE": {
+      "DESCRIPTION": "Aconteceu uma falha e não conseguimos carregar a tela.",
+      "TITLE": "Sem serviço"
+    },
+    "TRY_AGAIN": {
+      "BUTTON_LABEL": "Tentar novamente"
+    }
+  }
+}

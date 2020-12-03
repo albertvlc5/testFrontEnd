@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fixed Bottom Button View should render component 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-end",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "bottom": 0,
+          "height": 90,
+          "position": "absolute",
+          "right": 30,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#49E295",
+              "borderRadius": 16,
+              "flexDirection": "row",
+              "height": 60,
+              "justifyContent": "center",
+              "width": 60,
+            },
+          ]
+        }
+        testID="flat-button-id"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={32}
+          bbWidth={32}
+          fill="none"
+          focusable={false}
+          height={32}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              undefined,
+              Object {
+                "opacity": 1,
+              },
+              Object {
+                "flex": 0,
+                "height": 32,
+                "width": 32,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width={32}
+        >
+          <RNSVGGroup
+            fill={null}
+            fillOpacity={1}
+            fillRule={1}
+            font={Object {}}
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+            opacity={1}
+            originX={0}
+            originY={0}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            rotation={0}
+            scaleX={1}
+            scaleY={1}
+            skewX={0}
+            skewY={0}
+            stroke={null}
+            strokeDasharray={null}
+            strokeDashoffset={null}
+            strokeLinecap={0}
+            strokeLinejoin={0}
+            strokeMiterlimit={4}
+            strokeOpacity={1}
+            strokeWidth={1}
+            vectorEffect={0}
+            x={0}
+            y={0}
+          >
+            <RNSVGPath
+              d="M19 12H5"
+              fill={
+                Array [
+                  0,
+                  4278190080,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={
+                Array [
+                  0,
+                  4281549892,
+                ]
+              }
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            />
+            <RNSVGPath
+              d="M14 17L19 12"
+              fill={
+                Array [
+                  0,
+                  4278190080,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={
+                Array [
+                  0,
+                  4281549892,
+                ]
+              }
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            />
+            <RNSVGPath
+              d="M14 7L19 12"
+              fill={
+                Array [
+                  0,
+                  4278190080,
+                ]
+              }
+              fillOpacity={1}
+              fillRule={1}
+              matrix={
+                Array [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              opacity={1}
+              originX={0}
+              originY={0}
+              propList={
+                Array [
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              rotation={0}
+              scaleX={1}
+              scaleY={1}
+              skewX={0}
+              skewY={0}
+              stroke={
+                Array [
+                  0,
+                  4281549892,
+                ]
+              }
+              strokeDasharray={null}
+              strokeDashoffset={null}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeMiterlimit={4}
+              strokeOpacity={1}
+              strokeWidth={1}
+              vectorEffect={0}
+              x={0}
+              y={0}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

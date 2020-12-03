@@ -1,0 +1,1227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeSkeleton renders correctly 1`] = `
+<View
+  testID=""
+>
+  <RCTScrollView
+    ItemSeparatorComponent={null}
+    collapsable={false}
+    data={
+      Array [
+        <Grid
+          flex={1}
+          pl="spacing24px"
+          pr="spacing24px"
+          testID="home-skeleton-id"
+        >
+          <Grid
+            pb="spacing40px"
+            pt="spacing40px"
+          >
+            <Grid>
+              <TextSkeleton
+                height={15}
+                width={300}
+              />
+              <TextSkeleton
+                height={15}
+                pt="spacing16px"
+                width={50}
+              />
+            </Grid>
+          </Grid>
+          <FullWidthCardSkeleton
+            spacing={
+              Object {
+                "mb": "spacing0px",
+                "mt": "spacing16px",
+                "pb": "spacing80px",
+                "pl": "spacing20px",
+                "pr": "spacing20px",
+                "pt": "spacing80px",
+              }
+            }
+            subtitle={
+              Object {
+                "height": 15,
+                "pt": "spacing16px",
+                "width": 150,
+              }
+            }
+            title={
+              Object {
+                "height": 15,
+                "width": 150,
+              }
+            }
+          />
+          <FullWidthCardSkeleton
+            spacing={
+              Object {
+                "mb": "spacing0px",
+                "mt": "spacing16px",
+                "pb": "spacing80px",
+                "pl": "spacing20px",
+                "pr": "spacing20px",
+                "pt": "spacing80px",
+              }
+            }
+            subtitle={
+              Object {
+                "height": 15,
+                "pt": "spacing16px",
+                "width": 150,
+              }
+            }
+            title={
+              Object {
+                "height": 15,
+                "width": 150,
+              }
+            }
+          />
+          <Unknown
+            ml="spacing8px"
+            pb="spacing16px"
+            pt="spacing20px"
+            title={
+              Object {
+                "height": 15,
+                "width": 150,
+              }
+            }
+          />
+          <FullWidthCardSkeleton
+            spacing={
+              Object {
+                "mb": "spacing32px",
+                "mt": "spacing16px",
+                "pb": "spacing32px",
+                "pl": "spacing20px",
+                "pr": "spacing20px",
+                "pt": "spacing32px",
+              }
+            }
+            subtitle={
+              Object {
+                "height": 15,
+                "pt": "spacing16px",
+                "width": 150,
+              }
+            }
+            title={
+              Object {
+                "height": 15,
+                "width": 150,
+              }
+            }
+          />
+        </Grid>,
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          flex={1}
+          pl="spacing24px"
+          pr="spacing24px"
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingLeft": 24,
+                "paddingRight": 24,
+              },
+            ]
+          }
+          testID="home-skeleton-id"
+        >
+          <View
+            pb="spacing40px"
+            pt="spacing40px"
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 40,
+                  "paddingTop": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 300,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -300,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 300,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                pt="spacing16px"
+                style={
+                  Array [
+                    Object {
+                      "paddingTop": 16,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 50,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -50,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 50,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            alignItems="center"
+            borderColor="neutral4"
+            borderRadius="small"
+            borderWidth="width1px"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            mb="spacing0px"
+            mt="spacing16px"
+            pb="spacing80px"
+            pl="spacing20px"
+            pr="spacing20px"
+            pt="spacing80px"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#cccccc",
+                  "borderRadius": 10,
+                  "borderWidth": 1,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-start",
+                  "marginBottom": 0,
+                  "marginTop": 16,
+                  "paddingBottom": 80,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 80,
+                },
+              ]
+            }
+          >
+            <View
+              flex={1}
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                pt="spacing16px"
+                style={
+                  Array [
+                    Object {
+                      "paddingTop": 16,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            alignItems="center"
+            borderColor="neutral4"
+            borderRadius="small"
+            borderWidth="width1px"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            mb="spacing0px"
+            mt="spacing16px"
+            pb="spacing80px"
+            pl="spacing20px"
+            pr="spacing20px"
+            pt="spacing80px"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#cccccc",
+                  "borderRadius": 10,
+                  "borderWidth": 1,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-start",
+                  "marginBottom": 0,
+                  "marginTop": 16,
+                  "paddingBottom": 80,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 80,
+                },
+              ]
+            }
+          >
+            <View
+              flex={1}
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                pt="spacing16px"
+                style={
+                  Array [
+                    Object {
+                      "paddingTop": 16,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "borderBottomColor": "#cccccc",
+                  "borderBottomEndRadius": 10,
+                  "borderBottomStartRadius": 10,
+                  "borderColor": "#cccccc",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": -11,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                  "width": "100%",
+                  "zIndex": 10,
+                },
+              ]
+            }
+          >
+            <View
+              alignContent="center"
+              flex={1}
+              flexDirection="row"
+              ml="spacing8px"
+              pb="spacing16px"
+              pt="spacing20px"
+              style={
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "flexBasis": 0,
+                    "flexDirection": "row",
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "marginLeft": 8,
+                    "paddingBottom": 16,
+                    "paddingTop": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            alignItems="center"
+            borderColor="neutral4"
+            borderRadius="small"
+            borderWidth="width1px"
+            flex={1}
+            flexDirection="row"
+            justifyContent="flex-start"
+            mb="spacing32px"
+            mt="spacing16px"
+            pb="spacing32px"
+            pl="spacing20px"
+            pr="spacing20px"
+            pt="spacing32px"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#cccccc",
+                  "borderRadius": 10,
+                  "borderWidth": 1,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-start",
+                  "marginBottom": 32,
+                  "marginTop": 16,
+                  "paddingBottom": 32,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 32,
+                },
+              ]
+            }
+          >
+            <View
+              flex={1}
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                pt="spacing16px"
+                style={
+                  Array [
+                    Object {
+                      "paddingTop": 16,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 15,
+                        "width": 150,
+                      },
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 8,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F5F5F5",
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "transform": Array [
+                            Object {
+                              "translateX": -150,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <BVLinearGradient
+                        colors={
+                          Array [
+                            4294309365,
+                            4292927712,
+                            4294309365,
+                          ]
+                        }
+                        endPoint={
+                          Object {
+                            "x": 2,
+                            "y": 0.5,
+                          }
+                        }
+                        locations={
+                          Array [
+                            0.3,
+                            0.5,
+                            0.7,
+                          ]
+                        }
+                        startPoint={
+                          Object {
+                            "x": -1,
+                            "y": 0.5,
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "width": 150,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "height": 0,
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

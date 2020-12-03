@@ -1,0 +1,1053 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Value Preview and Confirmation Screen should render component 1`] = `
+Array [
+  <View
+    bg="fullTransparent"
+    pt="spacing8px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 48,
+            "justifyContent": "center",
+            "marginTop": 20,
+          },
+        ]
+      }
+    >
+      <View
+        alignItems="center"
+        flexDirection="row"
+        justifyContent="space-between"
+        pl="spacing24px"
+        pr="spacing24px"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingLeft": 24,
+              "paddingRight": 24,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "width": 40,
+              },
+            ]
+          }
+          width={40}
+        >
+          <View
+            iconRotation={null}
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                    "borderRadius": 8,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <RNSVGSvgView
+                align="xMidYMid"
+                bbHeight="24"
+                bbWidth="24"
+                focusable={false}
+                height="24"
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "180deg",
+                        },
+                      ],
+                    },
+                    Object {
+                      "opacity": 1,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 24,
+                      "width": 24,
+                    },
+                  ]
+                }
+                vbHeight={24}
+                vbWidth={24}
+                width="24"
+                x="0"
+                y="0"
+              >
+                <RNSVGGroup
+                  fill={
+                    Array [
+                      0,
+                      4278190080,
+                    ]
+                  }
+                  fillOpacity={1}
+                  fillRule={1}
+                  font={Object {}}
+                  matrix={
+                    Array [
+                      1,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                    ]
+                  }
+                  opacity={1}
+                  originX={0}
+                  originY={0}
+                  propList={Array []}
+                  rotation={0}
+                  scaleX={1}
+                  scaleY={1}
+                  skewX={0}
+                  skewY={0}
+                  stroke={null}
+                  strokeDasharray={null}
+                  strokeDashoffset={null}
+                  strokeLinecap={0}
+                  strokeLinejoin={0}
+                  strokeMiterlimit={4}
+                  strokeOpacity={1}
+                  strokeWidth={1}
+                  vectorEffect={0}
+                  x={0}
+                  y={0}
+                >
+                  <RNSVGPath
+                    d="M21.8,12.7L21.8,12.7C21.8,12.7,21.8,12.7,21.8,12.7C21.7,12.8,21.7,12.8,21.8,12.7
+C21.7,12.8,21.7,12.8,21.8,12.7l-0.1,0.1c0,0,0,0,0,0l0,0l-8.7,8.7c-0.5,0.5-1.3,0.5-1.8,0c-0.5-0.5-0.5-1.2-0.1-1.7l0.1-0.1
+l6.6-6.6H3.2C2.6,13.2,2,12.7,2,12c0-0.7,0.5-1.2,1.2-1.2l0.1,0h14.5l-6.6-6.6c-0.5-0.5-0.5-1.2-0.1-1.7l0.1-0.1
+c0.5-0.5,1.2-0.5,1.7-0.1l0.1,0.1l8.7,8.8c0,0,0,0,0.1,0.1l-0.1-0.1c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0.1
+c0,0,0,0,0,0c0.1,0.1,0.1,0.2,0.1,0.4c0,0,0,0,0,0c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0l0,0
+c0,0,0,0,0,0l0-0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0,0,0,0,0
+c0,0,0,0,0,0.1c0,0,0,0,0,0l0,0C21.8,12.6,21.8,12.7,21.8,12.7z"
+                    fill={
+                      Array [
+                        0,
+                        4283786854,
+                      ]
+                    }
+                    fillOpacity={1}
+                    fillRule={0}
+                    matrix={
+                      Array [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={
+                      Array [
+                        "fill",
+                        "fillRule",
+                      ]
+                    }
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    x={0}
+                    y={0}
+                  />
+                  <RNSVGRect
+                    fill={null}
+                    fillOpacity={1}
+                    fillRule={1}
+                    height="24"
+                    matrix={
+                      Array [
+                        0.7071067811865476,
+                        0.7071067811865475,
+                        -0.7071067811865475,
+                        0.7071067811865476,
+                        32.5,
+                        -13.46194077712559,
+                      ]
+                    }
+                    opacity={1}
+                    originX={0}
+                    originY={0}
+                    propList={
+                      Array [
+                        "fill",
+                      ]
+                    }
+                    rotation={0}
+                    scaleX={1}
+                    scaleY={1}
+                    skewX={0}
+                    skewY={0}
+                    stroke={null}
+                    strokeDasharray={null}
+                    strokeDashoffset={null}
+                    strokeLinecap={0}
+                    strokeLinejoin={0}
+                    strokeMiterlimit={4}
+                    strokeOpacity={1}
+                    strokeWidth={1}
+                    vectorEffect={0}
+                    width="24"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+        </View>
+        <View
+          flex={1}
+          pl="spacing8px"
+          pr="spacing8px"
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            color="neutral9"
+            numberOfLines={1}
+            strikeThrough={false}
+            style={
+              Array [
+                Object {
+                  "color": "#111515",
+                  "fontFamily": "HelveticaNowDisplay-Regular",
+                  "fontSize": 18,
+                  "lineHeight": 26,
+                  "textAlign": "center",
+                  "textDecorationColor": "#111515",
+                  "textDecorationLine": "none",
+                  "textDecorationStyle": "solid",
+                },
+              ]
+            }
+            textAlign="center"
+            underlined={false}
+            variant="mockTokenHelveticaLabelRegular"
+          >
+            salaryAdvance.header
+          </Text>
+        </View>
+        <View
+          flexDirection="row"
+          minWidth={40}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "minWidth": 40,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 110,
+          "marginLeft": 21,
+          "marginRight": 21,
+          "marginTop": 110,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#111515",
+            "fontFamily": "HelveticaNowDisplay-Light",
+            "fontSize": 26,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      salaryAdvance.valuePreviewConfirmation.main.a
+      <Text
+        primaryColor={true}
+        style={
+          Array [
+            Object {
+              "color": "#11bb77",
+              "fontFamily": "HelveticaNowDisplay-Light",
+              "fontSize": 26,
+              "lineHeight": 36,
+            },
+          ]
+        }
+      >
+         R$ 0,00 
+      </Text>
+      salaryAdvance.valuePreviewConfirmation.main.b
+       undefined
+    </Text>
+    <View
+      mt="spacing48px"
+      style={
+        Array [
+          Object {
+            "marginTop": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        color="neutral7"
+        strikeThrough={false}
+        style={
+          Array [
+            Object {
+              "color": "#556666",
+              "fontFamily": "HelveticaNowDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 20,
+              "textDecorationColor": "#556666",
+              "textDecorationLine": "none",
+              "textDecorationStyle": "solid",
+            },
+          ]
+        }
+        underlined={false}
+        variant="mockTokenHelveticaDisplayMedium"
+      >
+        salaryAdvance.valuePreviewConfirmation.noCostInterestFree
+      </Text>
+      <View
+        mt="spacing10px"
+        style={
+          Array [
+            Object {
+              "marginTop": 10,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            color="primary3"
+            strikeThrough={false}
+            style={
+              Array [
+                Object {
+                  "color": "#11bb77",
+                  "fontFamily": "HelveticaNowDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                  "textAlign": "left",
+                  "textDecorationColor": "#11bb77",
+                  "textDecorationLine": "none",
+                  "textDecorationStyle": "solid",
+                },
+              ]
+            }
+            textAlign="left"
+            underlined={false}
+            variant="mockTokenHelveticaDisplayMedium"
+          >
+            salaryAdvance.valuePreviewConfirmation.understandCost
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 100,
+            "height": 90,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <View
+        flexDirection="row"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <View
+          onTouchEnd={[Function]}
+          style={
+            Array [
+              Object {
+                "borderColor": "#111515",
+                "borderRadius": 5,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 30,
+                "paddingBottom": 3,
+                "paddingLeft": 3,
+                "paddingRight": 3,
+                "paddingTop": 3,
+                "width": 30,
+              },
+            ]
+          }
+          testID="box-id"
+        >
+          <View
+            checked={false}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 5,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+            testID="check-value-id"
+          />
+        </View>
+        <View
+          flexDirection="column"
+          ml="spacing12px"
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            color="neutral9"
+            strikeThrough={false}
+            style={
+              Array [
+                Object {
+                  "color": "#111515",
+                  "fontFamily": "HelveticaNowDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                  "textDecorationColor": "#111515",
+                  "textDecorationLine": "none",
+                  "textDecorationStyle": "solid",
+                },
+              ]
+            }
+            underlined={false}
+            variant="mockTokenHelveticaDisplayMedium"
+          >
+            salaryAdvance.valuePreviewConfirmation.contract.a
+          </Text>
+          <Text
+            color="primary3"
+            onPress={[Function]}
+            strikeThrough={false}
+            style={
+              Array [
+                Object {
+                  "color": "#11bb77",
+                  "fontFamily": "HelveticaNowDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                  "textDecorationColor": "#11bb77",
+                  "textDecorationLine": "none",
+                  "textDecorationStyle": "solid",
+                },
+              ]
+            }
+            underlined={false}
+            variant="mockTokenHelveticaDisplayMedium"
+          >
+            salaryAdvance.valuePreviewConfirmation.contract.b
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID=""
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F1F1F1",
+                "borderRadius": 8,
+                "height": 48,
+                "justifyContent": "center",
+              },
+              Object {
+                "backgroundColor": "#F1F1F1",
+                "borderRadius": 16,
+                "height": 60,
+                "marginTop": 45,
+                "width": 335,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#C3C3C3",
+                  "fontFamily": "Mute-Bold",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#C3C3C3",
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            salaryAdvance.valuePreviewConfirmation.btnFinish
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    onShow={[Function]}
+    statusBarTranslucent={true}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "portrait-upside-down",
+        "landscape",
+        "landscape-left",
+        "landscape-right",
+      ]
+    }
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "opacity": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <RCTScrollView
+        bounces={false}
+        data={
+          Array [
+            "dummy",
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="never"
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        onTouchEnd={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEnabled={false}
+        scrollEventThrottle={1}
+        showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View>
+              <View
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "black",
+                    "height": "100%",
+                    "opacity": 0.3,
+                    "position": "absolute",
+                    "width": "100%",
+                    "zIndex": 1,
+                  }
+                }
+              />
+              <View
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 1467.4,
+                    "width": "100%",
+                    "zIndex": 10,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "height": 1467.4,
+                      "opacity": 1,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "backgroundColor": "white",
+                    "borderTopLeftRadius": 10,
+                    "borderTopRightRadius": 10,
+                    "elevation": 5,
+                    "opacity": 0,
+                    "shadowColor": "black",
+                    "shadowOffset": Object {
+                      "height": 2.5,
+                      "width": 1.5,
+                    },
+                    "shadowOpacity": 0.2,
+                    "shadowRadius": 3.5,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                    "width": "100%",
+                    "zIndex": 11,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#DBE1DD",
+                        "borderRadius": 100,
+                        "height": 4,
+                        "justifyContent": "center",
+                        "marginTop": 8,
+                        "width": 40,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  mb="spacing24px"
+                  minHeight={100}
+                  mt="spacing16px"
+                  style={
+                    Array [
+                      Object {
+                        "marginBottom": 24,
+                        "marginTop": 16,
+                        "minHeight": 100,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    alignItems="center"
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      color="neutral9"
+                      strikeThrough={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#111515",
+                            "fontFamily": "HelveticaNowDisplay-Regular",
+                            "fontSize": 16,
+                            "lineHeight": 20,
+                            "textDecorationColor": "#111515",
+                            "textDecorationLine": "none",
+                            "textDecorationStyle": "solid",
+                          },
+                          Object {
+                            "fontSize": 18,
+                            "letterSpacing": 0.3,
+                            "lineHeight": 24,
+                          },
+                        ]
+                      }
+                      underlined={false}
+                      variant="mockTokenHelveticaDisplayRegular"
+                    >
+                      Entenda o uso
+                    </Text>
+                  </View>
+                  <View
+                    mb="spacing24px"
+                    mt="spacing32px"
+                    style={
+                      Array [
+                        Object {
+                          "marginBottom": 24,
+                          "marginTop": 32,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      ml="spacing20px"
+                      mr="spacing20px"
+                      style={
+                        Array [
+                          Object {
+                            "marginLeft": 20,
+                            "marginRight": 20,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        color="neutral6"
+                        strikeThrough={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#778888",
+                              "fontFamily": "HelveticaNowDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 20,
+                              "textDecorationColor": "#778888",
+                              "textDecorationLine": "none",
+                              "textDecorationStyle": "solid",
+                            },
+                            Object {
+                              "letterSpacing": 0.3,
+                              "lineHeight": 24,
+                            },
+                          ]
+                        }
+                        underlined={false}
+                        variant="mockTokenHelveticaDisplayMedium"
+                      >
+                        Você não paga nada nas duas primeiras antecipações.
+                      </Text>
+                      <Text
+                        color="neutral6"
+                        strikeThrough={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#778888",
+                              "fontFamily": "HelveticaNowDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 20,
+                              "textDecorationColor": "#778888",
+                              "textDecorationLine": "none",
+                              "textDecorationStyle": "solid",
+                            },
+                            Object {
+                              "letterSpacing": 0.3,
+                              "lineHeight": 24,
+                              "marginBottom": 30,
+                              "marginTop": 30,
+                            },
+                          ]
+                        }
+                        underlined={false}
+                        variant="mockTokenHelveticaDisplayMedium"
+                      >
+                        A partir da
+            terceira, o custo de R$ 5,00 é cobrado por antecipação.
+                      </Text>
+                      <Text
+                        color="neutral6"
+                        strikeThrough={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#778888",
+                              "fontFamily": "HelveticaNowDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 20,
+                              "textDecorationColor": "#778888",
+                              "textDecorationLine": "none",
+                              "textDecorationStyle": "solid",
+                            },
+                            Object {
+                              "letterSpacing": 0.3,
+                              "lineHeight": 24,
+                            },
+                          ]
+                        }
+                        underlined={false}
+                        variant="mockTokenHelveticaDisplayMedium"
+                      >
+                        Esse custo é
+            descontado do seu contracheque junto com o valor antecipado.
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    alignItems="center"
+                    flexDirection="row"
+                    justifyContent="center"
+                    mb="spacing24px"
+                    mt="spacing20px"
+                    mx={13}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "marginBottom": 24,
+                          "marginLeft": 13,
+                          "marginRight": 13,
+                          "marginTop": 20,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      flex={1}
+                      mx={7}
+                      style={
+                        Array [
+                          Object {
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "marginLeft": 7,
+                            "marginRight": 7,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          color="primary3"
+                          strikeThrough={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#11bb77",
+                                "fontFamily": "HelveticaNowDisplay-Bold",
+                                "fontSize": 18,
+                                "lineHeight": 26,
+                                "textAlign": "center",
+                                "textDecorationColor": "#11bb77",
+                                "textDecorationLine": "none",
+                                "textDecorationStyle": "solid",
+                              },
+                            ]
+                          }
+                          textAlign="center"
+                          underlined={false}
+                          variant="mockTokenHelveticaLabelBold"
+                        >
+                          Voltar
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "width": "100%",
+                      },
+                      Object {},
+                      Object {
+                        "height": 40,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </Modal>,
+]
+`;
