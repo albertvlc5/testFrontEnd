@@ -3,6 +3,7 @@ import {
   ValuePreviewAndConfirmation,
   ValueRequest,
   SpinnerInterceptor,
+  Webview,
 } from '../screens';
 
 export const ValueRequestScreen = {
@@ -28,6 +29,13 @@ export const ValuePreviewConfirmationScreen = {
 
 export const SpinnerInterceptorScreen = {
   screen: SpinnerInterceptor,
+  navigationOptions: {
+    headerShown: false,
+  },
+};
+
+export const WebviewScreen = {
+  screen: Webview,
   navigationOptions: {
     headerShown: false,
   },
